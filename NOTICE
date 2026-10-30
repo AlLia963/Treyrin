@@ -1,18 +1,24 @@
 Treyrin v5
 https://github.com/AlLia963/Treyrin
 
-Treyrin-specific work is distributed under Apache License 2.0.
+Copyright 2026 Treyrin contributors for the Treyrin-specific additions.
+Treyrin contributions are licensed under Apache License, Version 2.0.
 
-Pretrained language weights and tokenizer:
+Inherited pretrained text-decoder weights and tokenizer:
   Qwen/Qwen3.5-4B, Qwen team / Alibaba Cloud
+  Copyright 2026 Alibaba Cloud
   https://huggingface.co/Qwen/Qwen3.5-4B
   Inherited asset commit: 851bf6e806efd8d0a36b00ddf55e13ccb7b8cd0a
-  License: Apache License 2.0
+  License: Apache License, Version 2.0
+  Original license and attribution: licenses/QWEN-LICENSE
 
-Treyrin adds a cognitive graph, learned decoder bridges, adaptation, persistent
-experience, recurrent Spark hypotheses, and goal/action control. Q8_0 quantizes
-language weights. Native GGUF packages retain structural code and model state.
+Modifications by the Treyrin project include the cognitive core, decoder
+connections, LoRA/output adaptation, experience and hypothesis state,
+goal/action computation, checkpoint assembly and native-format conversion.
+Language weights are modified/adapted; Q8_0 also quantizes the language tensors.
+The upstream vision encoder is excluded.
 
-The separate native support package builds on llama.cpp / ggml and retains its
-MIT notice (Copyright (c) 2023-2026 The ggml authors) and the ONNX Runtime header
-notices. Dependencies keep their own licenses. See THIRD_PARTY_NOTICES.md.
+The runtime includes modified llama.cpp/ggml code under its MIT license and
+separately licensed dependencies. Upstream notices and dependency licenses
+are preserved in runtime/source and in the binary runtime archive.
+See THIRD_PARTY_NOTICES.md.

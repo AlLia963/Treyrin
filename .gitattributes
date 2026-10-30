@@ -7,3 +7,4 @@
 *.ps1 text eol=crlf
 LICENSE text eol=lf
 NOTICE text eol=lf
+runtime/source/model/** -text

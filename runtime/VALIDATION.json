@@ -1,0 +1,26 @@
+{
+  "tested_at": "2026-10-30T16:10:02.412233+08:00",
+  "runtime_id": "v5-native-r3",
+  "runtime_sha256": "1cb7f99b5b27a783be9042cdb6093aee4854f2668a8d3ec6de03ad64a1e94a94",
+  "model_sha256": "0f9f825cc08f385ee764ea49dab74fcb0ad2fcfabaed0e760129ba85d513a62c",
+  "upstream_commit": "48d22e295e2b86b47366c16390794f3e05ba970a",
+  "platform": "Windows x64",
+  "gpu": "NVIDIA GeForce RTX 4060 Laptop GPU",
+  "checks": {
+    "powershell_5_1_clean_directory_start": true,
+    "path_containing_spaces": true,
+    "three_part_q8_reassembly_and_sha256": true,
+    "runtime_install_full_manifest_verification": true,
+    "cpu_chat_answer": "4",
+    "cpu_chat_finish_reason": "stop",
+    "clean_state_restart_restored_records": 1,
+    "cuda_native_closed_candidate_selected": "4",
+    "same_process_native_lifecycle": true,
+    "patched_source_applies_to_pinned_upstream": true,
+    "embedded_source_files_match": 91,
+    "readme_language": "English",
+    "public_tree_and_runtime_client_material_scan": "passed"
+  },
+  "scope": "Transport/reassembly/install tests used a local asset directory. Native startup, a simple chat, persistence restart and a closed-candidate call were tested; this is deployment verification, not a broad capability benchmark.",
+  "remote_release_asset_download_tested": false
+}

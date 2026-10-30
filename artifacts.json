@@ -24,10 +24,10 @@
       "parts": 5
     },
     "Runtime": {
-      "file": "Treyrin-llama-win-x64-cuda-v5-r2.zip",
-      "bytes": 726192467,
-      "sha256": "32a37dd55f5b6e6f9ee67f1e7b62db543769128e7bcbc3dd475a3be8afaa07b6",
-      "runtime_id": "v5-native-r2",
+      "file": "Treyrin-llama-win-x64-cuda-v5-r3.zip",
+      "bytes": 698833091,
+      "sha256": "1cb7f99b5b27a783be9042cdb6093aee4854f2668a8d3ec6de03ad64a1e94a94",
+      "runtime_id": "v5-native-r3",
       "parts": 1
     }
   }
