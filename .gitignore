@@ -1,0 +1,7 @@
+*.gguf
+*.safetensors
+*.partial
+*.zip
+*.part[0-9][0-9][0-9]
+__pycache__/
+*.pyc

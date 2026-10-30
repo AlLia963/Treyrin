@@ -1,0 +1,34 @@
+{
+  "schema": 1,
+  "part_bytes": 1992294400,
+  "artifacts": {
+    "Q8_0": {
+      "path": "Q8_0/Treyrin-v5-Q8_0.gguf",
+      "file": "Treyrin-v5-Q8_0.gguf",
+      "bytes": 4534809504,
+      "sha256": "0f9f825cc08f385ee764ea49dab74fcb0ad2fcfabaed0e760129ba85d513a62c",
+      "parts": 3
+    },
+    "BF16": {
+      "path": "BF16/Treyrin-v5-BF16.gguf",
+      "file": "Treyrin-v5-BF16.gguf",
+      "bytes": 8476799904,
+      "sha256": "dd8b837f5da169dc5a722c4604f4cba51bcef887bfbda432fb8427a8fd8653c7",
+      "parts": 5
+    },
+    "Transformers": {
+      "path": "BF16/model.safetensors",
+      "file": "model.safetensors",
+      "bytes": 9705116525,
+      "sha256": "3055faf08579b0473ca5295bbaca8a4ce013a034df18a3912f2107d788f8509e",
+      "parts": 5
+    },
+    "Runtime": {
+      "file": "Treyrin-llama-win-x64-cuda-v5-r2.zip",
+      "bytes": 726192467,
+      "sha256": "32a37dd55f5b6e6f9ee67f1e7b62db543769128e7bcbc3dd475a3be8afaa07b6",
+      "runtime_id": "v5-native-r2",
+      "parts": 1
+    }
+  }
+}

@@ -1,0 +1,9 @@
+* text=auto
+*.py text eol=lf
+*.json text eol=lf
+*.jinja text eol=lf
+*.md text eol=lf
+*.patch text eol=lf
+*.ps1 text eol=crlf
+LICENSE text eol=lf
+NOTICE text eol=lf
