@@ -37,7 +37,7 @@ The project investigates several related problems:
 - Making goal/action choice and initiative part of model computation, while a host provides execution opportunities and tools.
 - Preserving cognitive methods and experience contracts when a future language backbone replaces the current small model.
 
-The original use cases, design requirements and delivered/remaining scope are recorded in [OBJECTIVES.md](docs/OBJECTIVES.md). The initial plan also considered future cooperation with the AlLia and Marigold projects; those integrations are outside this model release.
+The use cases, design requirements and delivered/remaining scope are recorded in [OBJECTIVES.md](docs/OBJECTIVES.md).
 
 ## What Treyrin adds
 

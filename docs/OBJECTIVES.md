@@ -18,8 +18,6 @@ The initial use cases were document reading, research records and everyday assis
 | Local deployment has limited compute and memory | Start small and measure quality/cost | Q8_0 default, GPU language path and CPU cognitive/lifecycle work | Broad real-task quality and time-cost comparisons |
 | Research-machine dependencies prevent reuse | Ship weights, source and a common execution entry | Transformers/GGUF formats, scripts, pinned patch and runtime archive | Unmodified upstream registration and more platforms |
 
-The historical plan also included future cooperation with AlLia and Marigold. This repository's delivered scope is the Treyrin model and its execution materials.
-
 A 30 GB research-directory scenario was discussed to clarify task continuity and memory requirements. Implemented archives and retrieval address parts of that scenario; the discussion is not a completed 30 GB task validation. Likewise, million-token ingestion is not a claim of million-token simultaneous language KV residency.
 
 See [ARCHITECTURE.md](ARCHITECTURE.md) for computation and [RESULTS.md](RESULTS.md) for checkpoint-specific evidence.
